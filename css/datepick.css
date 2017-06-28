@@ -1,0 +1,60 @@
+.z-datepick-wrap {
+    position: absolute;
+    width: 270px;
+    font-size: 16px;
+    color: #666;
+    box-shadow: 2px 2px 8px 2px rgba(240, 240, 240, 0.85);
+    display: none;
+}
+.z-datepick-wrap.show {
+    display: block;
+}
+.z-datepick-wrap .z-datepick-header {
+    padding: 0 30px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+.z-datepick-wrap .z-datepick-btn {
+    width: 20px;
+    height: 20px;
+    font-family: Serif;
+    font-size: 20px;
+    color: #1abc9c;
+    text-decoration: none;
+}
+.z-datepick-wrap .z-datepick-btn-pre {
+    float: left;
+}
+.z-datepick-wrap .z-datepick-btn-next {
+    float: right;
+}
+.z-datepick-wrap .z-datepick-body table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.z-datepick-wrap .z-datepick-body th {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+.z-datepick-wrap .z-datepick-body th:first-child,.z-datepick-wrap .z-datepick-body th:last-child {
+    color: crimson;
+}
+.z-datepick-wrap .z-datepick-body td {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+}
+.z-datepick-wrap .z-datepick-body .z-other-month {
+    color: #ccc !important;
+}
+.z-datepick-wrap .z-datepick-body .z-current-day {
+    color: #fff;
+    background-color: #1abc9c;
+}

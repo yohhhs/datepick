@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/datepick.css">
+    <style>
+        input {
+            margin-left: 50px;
+            width: 270px;
+            height: 40px;
+            border: 1px solid #c9c9c9;
+            -webkit-border-radius:2px;
+            -moz-border-radius:2px;
+            border-radius:2px;
+        }
+        input:focus {
+            border-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text" id="dateInput">
+    <script src="js/datepick.js"></script>
+    <script>
+        new datePick("#dateInput");
+    </script>
+</body>
+</html>
